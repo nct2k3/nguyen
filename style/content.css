@@ -1,0 +1,348 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.head-program{
+    height: 130px;
+    width: 100%;
+    background-image: url(./head.jpg);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+.head-program-logoexit{
+    margin-left: 77%;
+    width: 70px;
+    height: 70px;
+    transition-duration: 0.6s;
+}
+.head-program-logoexit:hover{
+    transform: scale(1.2);
+
+}
+.head-program-logo{
+    width: 200px;
+    height: 138px;
+}
+.seperate{
+    width: 100%;
+    height: 1.5px;
+    background-color: orangered;
+}
+
+.body-program{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(250, 159, 99);
+}
+.product{
+    height:600px;
+    width: 95%;
+    background-image: linear-gradient(to right,white,rgb(250, 159, 99) );
+    border-radius: 5px;
+    display: flex;
+}
+.product-img{
+    width: 35%;
+    height: 55%;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.product-next{
+    width: 600px;
+    height: 450px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.product-text{
+    height: 50px;
+    width: 100%;
+    font-size: 30px;
+    margin-top: 2%;
+
+}
+.product-buy{
+    height: 170px;
+    width: 100%;
+    background-color: antiquewhite;
+
+}
+.product-buy-cart{
+
+    text-align: center;
+    color:white;
+    transition-duration: 0.2s;
+    display: flex;
+    margin-top: 30px;
+    height: 100px;
+
+}
+
+.product-add-cart{
+    margin-top: 20px;
+    height: 45px;
+    width: 30%;
+    background-color:rgba(255, 0, 0,0.5);
+    border: 0.7px solid red;
+    font-size: 23px;
+}
+.product-add-cart:hover{
+    background-color: rgb(255, 5, 5);
+}
+.product-buy-cartnow{
+    margin-left: 5%;
+    margin-top: 20px;
+    height: 45px;
+    width: 20%;
+    background-color:rgba(255, 0, 0,0.6);
+    font-size: 23px;
+}
+.product-buy-cartnow-text{
+ margin-top: 7%;
+}
+.product-buy-cartnow:hover{
+    background-color: red;
+}
+.product-buy-cart1{
+  font-size: 20px;
+
+}
+ul{list-style: none;
+}
+.product-buy-price{
+    margin-left: 5%;
+    
+    font-size: 30px;
+    font-style: normal;
+}
+.product-buy-text{
+    margin-left: 7%;
+    margin-top: 2%;
+    color: red;
+    font-size: 20px;
+}
+.product-buy-text1{
+    margin-left: 7%;
+    margin-top: 2%;
+    color: red;
+    font-size: 20px;
+    height: 90px;
+}
+
+.close{
+    display:none;
+}
+.product-imge{
+    width: 100%;
+    height: 140%;
+    transition-duration: 0.6s;
+}
+.product-imge:hover{
+    transform: scale(1.1);
+}
+
+.product-buy-img{
+    width: 120%;
+    height: 170px;
+    display: flex;
+}
+.product-buy-imge{
+    width: 120px ;
+    height: 100px;
+     margin: 3%;
+    transition-duration: 0.6s;
+}
+.product-buy-imge:hover{
+    transform: scale(1.1);
+}
+.product-buy-imge1{
+    width: 120px ;
+    height: 100px;
+     margin: 3%;
+    transition-duration: 0.6s;
+}
+.product-buy-imge1:hover{
+    transform: scale(1.1);
+}
+.product-buy-imge2{
+    width: 120px ;
+    height: 100px;
+     margin: 3%;
+    transition-duration: 0.6s;
+}
+.product-buy-imge2:hover{
+    transform: scale(1.1);
+}
+.product-buy-imge3{
+    width: 120px;
+    height: 100px;
+     margin: 3%;
+    transition-duration: 0.6s;
+}
+.product-buy-imge3:hover{
+    transform: scale(1.1);
+}
+@media screen and (max-width:1300px) {
+    .product-img{
+        margin-top: 10%;
+        width: 300px;
+        height: 35%;
+
+    }
+    .product-buy-imge{
+        width: 70px;
+    height: 70px;
+
+    } 
+    .product-buy-imge1{
+        width: 70px;
+    height: 70px;
+
+    } 
+    .product-buy-imge2{
+        width: 70px;
+    height: 70px;
+
+    } 
+    .product-buy-imge3{
+        width: 70px;
+    height: 70px;
+
+    } 
+    .product-buy-cart{
+        font-size: 15px;
+
+    }
+
+}
+
+.product-after{
+    height: 700px;
+    width: 100%;
+    background-color: rgba(12, 12, 12,0.9);
+    position: fixed;
+    top: 0px;
+    
+}
+.product-after-img{
+    height: 500px;
+    width: 500px;
+    margin-left:32%;
+    margin-top: 5%;
+}
+
+
+
+
+/* san pham xem them */
+.new-product{
+    
+    width: 100%;
+    height: 100%;
+    background-color:white;
+
+}
+#parentItem1{
+    height: 95%;
+    margin-left: 7%;
+    background-image: linear-gradient(to right,white,rgb(250, 159, 99) );
+    display: flex;
+    flex-wrap: wrap;
+    transition-duration: 0.5s;
+}
+
+.product-sp{
+    height: 320px;
+    width: 252px;
+    background-color:white;
+    margin: 2.2%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border: 0.5px solid black;
+    transition-duration: 0.5s;
+
+}
+.product-sp:hover{
+    transform: scale(1.1);
+}
+.product-sp-img{
+    height: 250px;
+    width: 250px;
+}
+.product-sp-text{
+    display: flex;
+    margin: 2%;
+}
+.name-sp{
+    width: 180px;
+}
+.price-sp{
+
+    color: brown;
+}
+
+.product-similar{
+    color: rgb(1, 36, 36);
+    background-image: linear-gradient(to right,rgb(250, 159, 99),white );
+}
+.product-similar-text{
+    margin-left: 10%;
+    font-size: 40px;
+    color: white;
+   
+}
+.btn1{
+    display: flex;
+    font-size: 20px;
+    height: 35px;
+    width: 250px;
+    border-top:  0.5px solid black;
+    
+}
+.btn1:hover{
+    background-color: pink;
+}
+.btn-icon{
+    margin-top: 3%;
+    background-color: transparent;
+    font-size: 25px;
+}
+.btn-icon1{
+    background-color: transparent;
+    font-size: 25px;
+    margin-left: 20%;
+    margin-top: 5px;
+}
+.mess-btn{
+    color: red;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.notification{
+    width: 230px;
+    background-color: rgb(255, 255, 255);
+	animation: sl linear .40s,out linear 10s forwards;
+    position: fixed;
+    bottom: 0px;
+    right: -5px;
+    font-size: 20px;
+    transform:transitiony(100%);
+    border-radius: 50px 0px 0px 50px;
+   
+}
+
+    @keyframes out {	to{ opacity: 0;}}
+    @keyframes sl{from{transform:translate(100%);} to{transform:translate(50%);	}}
+.btn-icon2{
+    background-color: transparent;
+    font-size: 45px;
+    display: flex;
+    margin-left: 10%;
+    
+    }
+    .notification-text{
+        font-size: 15px;
+    }
+    .notification-text1{
+        font-size: 20px;
+    }

@@ -1,0 +1,34 @@
+.wapper{
+    max-width: 500px;
+    display:flex ;
+    justify-content: center;
+
+}
+.btn{
+padding: 50px 50px;
+background-color: rgb(46, 124, 143);
+position: relative;
+overflow: hidden;
+color: black;
+border-radius: 5px;
+font-size: 20px;
+}
+.btn::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: brown;
+    transition: all 3s ease-in-out;
+    left:0;
+    top:0px;
+}
+.btn:hover::before{
+    left:-100%;
+}
+@media screen and (max-width:800px) {
+    .btn{
+        display: none;
+    } 
+    
+}
